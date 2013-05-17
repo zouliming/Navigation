@@ -1,0 +1,125 @@
+body {
+    background-repeat: repeat;
+    background: url("../img/nav_bg.png") repeat #fff;
+    font-family: "Helvetica Neue",Helvetica,STheiti,微软雅黑,宋体,Arial,Tahoma,sans-serif,serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    margin: 0;
+}
+a {
+    color: #2375BE;
+    text-decoration: none;
+}
+.clear{
+    display: block;
+}
+.clear:after{
+    content: "";
+    display: table;
+    line-height: 0;
+}
+li {
+    line-height: 20px;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
+ul, ol {
+    padding: 0;
+    margin: 0 0 10px 36px;
+}
+
+.container {
+    z-index: 20;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.row-fluid [class*="span"]:first-child {
+    margin-left: 0;
+}
+[class*="span"].pull-right, .row-fluid [class*="span"].pull-right {
+    float: right;
+}
+.content {
+    width: 82.90598290598291%;
+    display: block;
+    margin-left: 0;
+    float: right;
+    box-sizing: border-box;
+    background: url("../img/content_bg.png") repeat scroll 0 0 transparent;
+    box-shadow: 0 0 5px 0 silver;
+    padding: 10px 20px;
+    min-height: 1030px;
+    -moz-box-sizing: border-box;
+}
+
+.sideBar{
+    overflow: hidden;
+    padding-top: 20px;
+}
+.sideBar ul > li {
+    color: #141F40;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.sideBar ul > li figure {
+    margin: 0;
+    padding: 6px 14px;
+}
+.sideBar ul > li .menuText {
+    display: inline-block;
+}
+
+.sideBar ul {
+    list-style: none;
+    margin: 0;
+}
+.sideBar a {
+    color: #141F40;
+}
+.sideBar li.active{
+    background-color: #2375BE;
+}
+.sideBar li.active a{
+    color:#fff;
+}
+nav{
+    text-align: right;
+}
+.affix {
+    position: fixed;
+}
+.side_nav {
+    width: 8.5% !important;
+}
+nav a {
+    color: #444444;
+}
+.application_list li{
+    line-height: 20px;
+    padding: 10px 8px;
+}
+.greenTag{
+    width: 20px;
+    height: 20px;
+    background-color: #92f399;
+    float: left;
+    margin-right: 10px;
+}
+.redTag{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    float: left;
+    margin-right: 10px;
+}
+.application_list .server span{
+    line-height: 20px;
+}
